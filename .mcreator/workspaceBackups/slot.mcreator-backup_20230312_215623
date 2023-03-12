@@ -1133,6 +1133,20 @@
         ]
       },
       "path": "~/BIOMES"
+    },
+    {
+      "name": "Vkladka",
+      "type": "item",
+      "sortid": 81,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vkladka",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/slot/item/VkladkaItem.java",
+          "src/main/resources/assets/slot/models/item/vkladka.json"
+        ]
+      }
     }
   ],
   "variable_elements": [
@@ -1173,6 +1187,7 @@
       "biome.slot.bloody_snow_valley": "Bloody Snow Valley",
       "item.slot.ruby_armor_armor_chestplate": "Ruby_armor Chestplate",
       "item.slot.ridik_spawn_egg": "Ridik Spawn Egg",
+      "item.slot.vkladka": "Tab_item",
       "entity.slot.ridik": "Ridik",
       "block.slot.rubyore": "Rubin Gem",
       "subtitles.chundra_death": "",
@@ -1247,20 +1262,17 @@
   "workspaceSettings": {
     "modid": "slot",
     "modName": "SLOT",
-    "version": "0.0",
+    "version": "1_alpha",
     "author": "FaNaTiK",
     "websiteURL": "https://mcreator.net",
     "license": "All Rights Reserved",
-    "disableForgeVersionCheck": false,
-    "serverSideOnly": false,
-    "modPicture": "128",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": true,
+    "modPicture": "ruby_avatarka",
     "requiredMods": [],
     "dependencies": [],
     "dependants": [],
-    "mcreatorDependencies": [
-      "curios_api",
-      "jei"
-    ],
+    "mcreatorDependencies": [],
     "currentGenerator": "forge-1.19.2",
     "credits": "Created using mod maker MCreator - https://mcreator.net/about",
     "modElementsPackage": "net.mcreator.slot",
