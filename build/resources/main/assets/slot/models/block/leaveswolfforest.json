@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "slot:blocks/leaves",
+    "particle": "slot:blocks/leaves"
+  }
+}

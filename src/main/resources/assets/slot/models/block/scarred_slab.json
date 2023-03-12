@@ -1,0 +1,9 @@
+{
+  "parent": "block/slab",
+  "textures": {
+    "bottom": "slot:blocks/scarred_planks",
+    "top": "slot:blocks/scarred_planks",
+    "side": "slot:blocks/scarred_planks"
+  },
+  "render_type": "solid"
+}

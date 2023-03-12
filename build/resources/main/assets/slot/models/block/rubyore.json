@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "slot:blocks/6",
+    "up": "slot:blocks/6",
+    "north": "slot:blocks/6",
+    "east": "slot:blocks/6",
+    "south": "slot:blocks/6",
+    "west": "slot:blocks/6",
+    "particle": "slot:blocks/6"
+  },
+  "render_type": "solid"
+}

@@ -1,0 +1,68 @@
+{
+  "_fv": 39,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 190,
+    "height": 166,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "button",
+        "data": {
+          "name": "button_scar_warrior",
+          "text": "Scar Warrior",
+          "onClick": {
+            "name": "AscarProc"
+          },
+          "width": 63,
+          "height": 20,
+          "x": 232,
+          "y": 78
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_antiscar",
+          "text": "Anti-scar",
+          "onClick": {
+            "name": "FireProc"
+          },
+          "width": 51,
+          "height": 20,
+          "x": 133,
+          "y": 78
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "scar_warrior.png",
+          "use1Xscale": false,
+          "x": 248,
+          "y": 41
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "anti_scar.png",
+          "use1Xscale": false,
+          "x": 136,
+          "y": 20
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

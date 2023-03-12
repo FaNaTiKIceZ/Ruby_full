@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "slot:block/scarred_log",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "slot:block/scarred_log"
+    },
+    "axis=z": {
+      "model": "slot:block/scarred_log",
+      "x": 90
+    }
+  }
+}

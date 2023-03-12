@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "slot:block/scarred_slab"
+    },
+    "type=top": {
+      "model": "slot:block/scarred_slab_top"
+    },
+    "type=double": {
+      "model": "slot:block/scarred_slab_full"
+    }
+  }
+}

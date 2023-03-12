@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "forge:scarred_log"
+    }
+  ],
+  "result": {
+    "item": "slot:scarred_planks",
+    "count": 4
+  }
+}

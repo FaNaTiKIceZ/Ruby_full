@@ -1,0 +1,10 @@
+{
+  "type": "forge:add_spawns",
+  "biomes": "slot:scarlands",
+  "spawners": {
+    "type": "slot:chundra",
+    "weight": 20,
+    "minCount": 1,
+    "maxCount": 4
+  }
+}

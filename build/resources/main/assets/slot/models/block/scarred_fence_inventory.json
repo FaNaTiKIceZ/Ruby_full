@@ -1,0 +1,8 @@
+{
+  "parent": "block/fence_inventory",
+  "textures": {
+    "texture": "slot:blocks/scarred_planks",
+    "particle": "slot:blocks/scarred_planks"
+  },
+  "render_type": "solid"
+}

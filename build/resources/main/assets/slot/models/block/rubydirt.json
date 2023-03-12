@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "slot:blocks/dirt",
+    "up": "slot:blocks/verx",
+    "north": "slot:blocks/2",
+    "east": "slot:blocks/2",
+    "south": "slot:blocks/2",
+    "west": "slot:blocks/2",
+    "particle": "slot:blocks/dirt"
+  },
+  "render_type": "solid"
+}

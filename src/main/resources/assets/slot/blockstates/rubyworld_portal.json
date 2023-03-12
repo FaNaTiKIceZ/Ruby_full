@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "axis=z": {
+      "model": "slot:block/rubyworld_portal_ew"
+    },
+    "axis=x": {
+      "model": "slot:block/rubyworld_portal_ns"
+    }
+  }
+}

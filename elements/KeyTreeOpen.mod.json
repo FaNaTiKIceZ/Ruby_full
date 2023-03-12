@@ -1,0 +1,12 @@
+{
+  "_fv": 39,
+  "_type": "keybind",
+  "definition": {
+    "triggerKey": "R",
+    "keyBindingName": "Key Tree Open",
+    "keyBindingCategoryKey": "misc",
+    "onKeyPressed": {
+      "name": "FireProc"
+    }
+  }
+}

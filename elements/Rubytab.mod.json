@@ -1,0 +1,11 @@
+{
+  "_fv": 39,
+  "_type": "tab",
+  "definition": {
+    "name": "Ruby+",
+    "icon": {
+      "value": "CUSTOM:Vkladka"
+    },
+    "showSearch": true
+  }
+}

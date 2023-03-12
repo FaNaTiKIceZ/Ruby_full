@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "slot:scarredearth",
+    "minecraft:mycelium",
+    "minecraft:coarse_dirt",
+    "minecraft:podzol",
+    "minecraft:snow",
+    "slot:rubydirt"
+  ]
+}

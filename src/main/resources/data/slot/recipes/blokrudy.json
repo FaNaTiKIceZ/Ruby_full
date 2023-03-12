@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "slot:ruby"
+    },
+    "1": {
+      "item": "slot:ruby"
+    },
+    "2": {
+      "item": "slot:ruby"
+    },
+    "3": {
+      "item": "slot:ruby"
+    },
+    "4": {
+      "item": "slot:ruby"
+    },
+    "5": {
+      "item": "slot:ruby"
+    },
+    "6": {
+      "item": "slot:ruby"
+    },
+    "7": {
+      "item": "slot:ruby"
+    },
+    "8": {
+      "item": "slot:ruby"
+    }
+  },
+  "result": {
+    "item": "slot:ruby_block",
+    "count": 1
+  }
+}

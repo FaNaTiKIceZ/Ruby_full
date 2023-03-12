@@ -1,0 +1,20 @@
+{
+  "_fv": 39,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Blasting",
+    "xpReward": 1.0,
+    "cookingTime": 100,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "blastingInputStack": {
+      "value": "CUSTOM:Rubyore"
+    },
+    "blastingReturnStack": {
+      "value": "CUSTOM:Ruby"
+    },
+    "name": "pierieplavkarudy_2",
+    "namespace": "mod"
+  }
+}

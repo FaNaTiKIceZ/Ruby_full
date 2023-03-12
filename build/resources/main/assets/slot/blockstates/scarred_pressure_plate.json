@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "powered=false": {
+      "model": "slot:block/scarred_pressure_plate"
+    },
+    "powered=true": {
+      "model": "slot:block/scarred_pressure_plate_down"
+    }
+  }
+}

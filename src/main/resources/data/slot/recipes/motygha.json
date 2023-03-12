@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "minecraft:netherite_hoe"
+  },
+  "addition": {
+    "item": "slot:ruby"
+  },
+  "result": {
+    "item": "slot:ruby_equipment_hoe"
+  }
+}

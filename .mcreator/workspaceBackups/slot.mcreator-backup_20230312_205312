@@ -1,0 +1,1267 @@
+{
+  "mod_elements": [
+    {
+      "name": "Ridik",
+      "type": "livingentity",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ridik",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/slot/client/renderer/RidikRenderer.java",
+          "src/main/resources/data/slot/forge/biome_modifier/ridik_biome_modifier.json",
+          "src/main/java/net/mcreator/slot/entity/RidikEntity.java",
+          "src/main/resources/assets/slot/models/item/ridik_spawn_egg.json"
+        ]
+      },
+      "path": "~/MOBS"
+    },
+    {
+      "name": "RubyBlock",
+      "type": "block",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ruby_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/slot/block/RubyBlockBlock.java",
+          "src/main/resources/assets/slot/models/block/ruby_block.json",
+          "src/main/resources/assets/slot/blockstates/ruby_block.json",
+          "src/main/resources/assets/slot/models/item/ruby_block.json"
+        ]
+      },
+      "path": "~/BLOCKS"
+    },
+    {
+      "name": "Scarlands",
+      "type": "biome",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "scarlands",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/slot/world/features/treedecorators/ScarlandsLeaveDecorator.java",
+          "src/main/java/net/mcreator/slot/world/biome/ScarlandsBiome.java",
+          "src/main/java/net/mcreator/slot/world/features/treedecorators/ScarlandsTrunkDecorator.java"
+        ]
+      },
+      "path": "~/BIOMES"
+    },
+    {
+      "name": "Rubyworld",
+      "type": "dimension",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rubyworld",
+      "metadata": {
+        "ep": true,
+        "files": [
+          "src/main/java/net/mcreator/slot/world/teleporter/RubyworldPortalShape.java",
+          "src/main/resources/data/slot/dimension_type/rubyworld.json",
+          "src/main/java/net/mcreator/slot/world/teleporter/RubyworldTeleporter.java",
+          "src/main/resources/assets/slot/models/block/rubyworld_portal_ns.json",
+          "src/main/resources/assets/slot/models/block/rubyworld_portal_ew.json",
+          "src/main/java/net/mcreator/slot/block/RubyworldPortalBlock.java",
+          "src/main/java/net/mcreator/slot/world/dimension/RubyworldDimension.java",
+          "src/main/resources/assets/slot/blockstates/rubyworld_portal.json",
+          "src/main/java/net/mcreator/slot/item/RubyworldItem.java",
+          "src/main/resources/assets/slot/models/item/rubyworld.json",
+          "src/main/resources/data/slot/dimension/rubyworld.json"
+        ]
+      }
+    },
+    {
+      "name": "Rubytab",
+      "type": "tab",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rubytab",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "Ruby",
+      "type": "item",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ruby",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/slot/models/item/ruby.json",
+          "src/main/java/net/mcreator/slot/item/RubyItem.java"
+        ]
+      },
+      "path": "~/ITEMS"
+    },
+    {
+      "name": "Ruby_equipmentPickaxe",
+      "type": "tool",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ruby_equipment_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/slot/models/item/ruby_equipment_pickaxe.json",
+          "src/main/java/net/mcreator/slot/item/Ruby_equipmentPickaxeItem.java"
+        ]
+      },
+      "path": "~/ITEMS"
+    },
+    {
+      "name": "Ruby_equipmentAxe",
+      "type": "tool",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ruby_equipment_axe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/slot/models/item/ruby_equipment_axe.json",
+          "src/main/java/net/mcreator/slot/item/Ruby_equipmentAxeItem.java"
+        ]
+      },
+      "path": "~/ITEMS"
+    },
+    {
+      "name": "Ruby_equipmentSword",
+      "type": "tool",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ruby_equipment_sword",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/slot/models/item/ruby_equipment_sword.json",
+          "src/main/java/net/mcreator/slot/item/Ruby_equipmentSwordItem.java"
+        ]
+      },
+      "path": "~/ITEMS"
+    },
+    {
+      "name": "Ruby_equipmentShovel",
+      "type": "tool",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ruby_equipment_shovel",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/slot/models/item/ruby_equipment_shovel.json",
+          "src/main/java/net/mcreator/slot/item/Ruby_equipmentShovelItem.java"
+        ]
+      },
+      "path": "~/ITEMS"
+    },
+    {
+      "name": "Ruby_equipmentHoe",
+      "type": "tool",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ruby_equipment_hoe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/slot/item/Ruby_equipmentHoeItem.java",
+          "src/main/resources/assets/slot/models/item/ruby_equipment_hoe.json"
+        ]
+      },
+      "path": "~/ITEMS"
+    },
+    {
+      "name": "Chundra",
+      "type": "livingentity",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chundra",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/slot/client/renderer/ChundraRenderer.java",
+          "src/main/resources/data/slot/forge/biome_modifier/chundra_biome_modifier.json",
+          "src/main/java/net/mcreator/slot/entity/ChundraEntity.java",
+          "src/main/resources/assets/slot/models/item/chundra_spawn_egg.json"
+        ]
+      },
+      "path": "~/MOBS"
+    },
+    {
+      "name": "Rubydirt",
+      "type": "block",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rubydirt",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/slot/blockstates/rubydirt.json",
+          "src/main/resources/assets/slot/models/block/rubydirt.json",
+          "src/main/java/net/mcreator/slot/block/RubydirtBlock.java",
+          "src/main/resources/assets/slot/models/item/rubydirt.json"
+        ]
+      },
+      "path": "~/BLOCKS"
+    },
+    {
+      "name": "Scarredearth",
+      "type": "block",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "scarredearth",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/slot/models/item/scarredearth.json",
+          "src/main/resources/assets/slot/blockstates/scarredearth.json",
+          "src/main/resources/assets/slot/models/block/scarredearth.json",
+          "src/main/java/net/mcreator/slot/block/ScarredearthBlock.java"
+        ]
+      },
+      "path": "~/BLOCKS"
+    },
+    {
+      "name": "Scarredwasteland",
+      "type": "biome",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "scarredwasteland",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/slot/world/biome/ScarredwastelandBiome.java"
+        ]
+      },
+      "path": "~/BIOMES"
+    },
+    {
+      "name": "AxeboostPriNazhatiiPravoiKnopkoiMyshi",
+      "type": "procedure",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "axeboost_pri_nazhatii_pravoi_knopkoi_myshi",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/slot/procedures/AxeboostPriNazhatiiPravoiKnopkoiMyshiProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/ITEMS"
+    },
+    {
+      "name": "Axeboost",
+      "type": "tool",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "axeboost",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/slot/models/item/axeboost.json",
+          "src/main/java/net/mcreator/slot/item/AxeboostItem.java"
+        ]
+      },
+      "path": "~/ITEMS"
+    },
+    {
+      "name": "KeyTreeOpen",
+      "type": "keybind",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "key_tree_open",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/slot/network/KeyTreeOpenMessage.java"
+        ]
+      }
+    },
+    {
+      "name": "Antiscarbow",
+      "type": "rangeditem",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "antiscarbow",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/slot/item/AntiscarbowItem.java",
+          "src/main/java/net/mcreator/slot/entity/AntiscarbowEntity.java",
+          "src/main/resources/assets/slot/models/item/antiscarbow.json"
+        ]
+      },
+      "path": "~/ITEMS"
+    },
+    {
+      "name": "FireProc",
+      "type": "procedure",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fire_proc",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/slot/procedures/FireProcProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/ITEMS"
+    },
+    {
+      "name": "ABottlewithascar",
+      "type": "rangeditem",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "a_bottlewithascar",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/slot/entity/ABottlewithascarEntity.java",
+          "src/main/resources/assets/slot/models/item/a_bottlewithascar.json",
+          "src/main/java/net/mcreator/slot/item/ABottlewithascarItem.java"
+        ]
+      },
+      "path": "~/ITEMS"
+    },
+    {
+      "name": "AscarProc",
+      "type": "procedure",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ascar_proc",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/slot/procedures/AscarProcProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/ITEMS"
+    },
+    {
+      "name": "SPELLTREEGUI",
+      "type": "gui",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spelltreegui",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/slot/world/inventory/SPELLTREEGUIMenu.java",
+          "src/main/java/net/mcreator/slot/network/SPELLTREEGUIButtonMessage.java",
+          "src/main/java/net/mcreator/slot/client/gui/SPELLTREEGUIScreen.java"
+        ]
+      },
+      "path": "~/ITEMS"
+    },
+    {
+      "name": "Ruby_armorArmor",
+      "type": "armor",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ruby_armor_armor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true,
+        "files": [
+          "src/main/java/net/mcreator/slot/item/Ruby_armorArmorItem.java",
+          "src/main/resources/assets/slot/models/item/ruby_armor_armor_helmet.json",
+          "src/main/resources/assets/slot/models/item/ruby_armor_armor_boots.json",
+          "src/main/resources/assets/slot/models/item/ruby_armor_armor_leggings.json",
+          "src/main/resources/assets/slot/models/item/ruby_armor_armor_chestplate.json"
+        ]
+      },
+      "path": "~/ITEMS"
+    },
+    {
+      "name": "Heartarrow",
+      "type": "item",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "heartarrow",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/slot/item/HeartarrowItem.java",
+          "src/main/resources/assets/slot/models/item/heartarrow.json"
+        ]
+      },
+      "path": "~/ITEMS"
+    },
+    {
+      "name": "RubinGem",
+      "type": "block",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rubin_gem",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/slot/blockstates/rubin_gem.json",
+          "src/main/resources/assets/slot/models/block/rubin_gem.json",
+          "src/main/java/net/mcreator/slot/block/RubinGemBlock.java",
+          "src/main/resources/assets/slot/models/item/rubin_gem.json"
+        ]
+      },
+      "path": "~/BLOCKS"
+    },
+    {
+      "name": "Glowingrubyingot",
+      "type": "item",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "glowingrubyingot",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/slot/item/GlowingrubyingotItem.java",
+          "src/main/resources/assets/slot/models/item/glowingrubyingot.json"
+        ]
+      },
+      "path": "~/ITEMS"
+    },
+    {
+      "name": "Rubyore",
+      "type": "block",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rubyore",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/slot/models/block/rubyore.json",
+          "src/main/java/net/mcreator/slot/block/RubyoreBlock.java",
+          "src/main/resources/assets/slot/models/item/rubyore.json",
+          "src/main/resources/assets/slot/blockstates/rubyore.json"
+        ]
+      },
+      "path": "~/BLOCKS"
+    },
+    {
+      "name": "Wolfforest",
+      "type": "biome",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wolfforest",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/slot/world/features/treedecorators/WolfforestTrunkDecorator.java",
+          "src/main/java/net/mcreator/slot/world/biome/WolfforestBiome.java",
+          "src/main/java/net/mcreator/slot/world/features/treedecorators/WolfforestLeaveDecorator.java",
+          "src/main/java/net/mcreator/slot/world/features/treedecorators/WolfforestFruitDecorator.java"
+        ]
+      },
+      "path": "~/BIOMES"
+    },
+    {
+      "name": "ScarredWood",
+      "type": "block",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "scarred_wood",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/slot/block/ScarredWoodBlock.java",
+          "src/main/resources/assets/slot/models/item/scarred_wood.json",
+          "src/main/resources/assets/slot/blockstates/scarred_wood.json",
+          "src/main/resources/assets/slot/models/block/scarred_wood.json"
+        ]
+      },
+      "path": "~/BLOCKS"
+    },
+    {
+      "name": "ScarredLog",
+      "type": "block",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "scarred_log",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/slot/block/ScarredLogBlock.java",
+          "src/main/resources/assets/slot/blockstates/scarred_log.json",
+          "src/main/resources/assets/slot/models/item/scarred_log.json",
+          "src/main/resources/assets/slot/models/block/scarred_log.json"
+        ]
+      },
+      "path": "~/BLOCKS"
+    },
+    {
+      "name": "ScarredPlanks",
+      "type": "block",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "scarred_planks",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/slot/blockstates/scarred_planks.json",
+          "src/main/java/net/mcreator/slot/block/ScarredPlanksBlock.java",
+          "src/main/resources/assets/slot/models/block/scarred_planks.json",
+          "src/main/resources/assets/slot/models/item/scarred_planks.json"
+        ]
+      },
+      "path": "~/BLOCKS"
+    },
+    {
+      "name": "ScarredLeaves",
+      "type": "block",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "scarred_leaves",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/slot/block/ScarredLeavesBlock.java",
+          "src/main/resources/assets/slot/blockstates/scarred_leaves.json",
+          "src/main/resources/assets/slot/models/item/scarred_leaves.json",
+          "src/main/resources/assets/slot/models/block/scarred_leaves.json"
+        ]
+      },
+      "path": "~/BLOCKS"
+    },
+    {
+      "name": "ScarredStairs",
+      "type": "block",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "scarred_stairs",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/slot/block/ScarredStairsBlock.java",
+          "src/main/resources/assets/slot/models/item/scarred_stairs.json",
+          "src/main/resources/assets/slot/blockstates/scarred_stairs.json",
+          "src/main/resources/assets/slot/models/block/scarred_stairs_outer.json",
+          "src/main/resources/assets/slot/models/block/scarred_stairs.json",
+          "src/main/resources/assets/slot/models/block/scarred_stairs_inner.json"
+        ]
+      },
+      "path": "~/BLOCKS"
+    },
+    {
+      "name": "ScarredSlab",
+      "type": "block",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "scarred_slab",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/slot/models/block/scarred_slab_top.json",
+          "src/main/resources/assets/slot/models/block/scarred_slab.json",
+          "src/main/java/net/mcreator/slot/block/ScarredSlabBlock.java",
+          "src/main/resources/assets/slot/blockstates/scarred_slab.json",
+          "src/main/resources/assets/slot/models/item/scarred_slab.json",
+          "src/main/resources/assets/slot/models/block/scarred_slab_full.json"
+        ]
+      },
+      "path": "~/BLOCKS"
+    },
+    {
+      "name": "ScarredFence",
+      "type": "block",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "scarred_fence",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/slot/models/item/scarred_fence.json",
+          "src/main/java/net/mcreator/slot/block/ScarredFenceBlock.java",
+          "src/main/resources/assets/slot/models/block/scarred_fence_post.json",
+          "src/main/resources/assets/slot/blockstates/scarred_fence.json",
+          "src/main/resources/assets/slot/models/block/scarred_fence.json",
+          "src/main/resources/assets/slot/models/block/scarred_fence_inventory.json"
+        ]
+      },
+      "path": "~/BLOCKS"
+    },
+    {
+      "name": "ScarredFenceGate",
+      "type": "block",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "scarred_fence_gate",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/slot/blockstates/scarred_fence_gate.json",
+          "src/main/java/net/mcreator/slot/block/ScarredFenceGateBlock.java",
+          "src/main/resources/assets/slot/models/block/scarred_fence_gate_wall.json",
+          "src/main/resources/assets/slot/models/block/scarred_fence_gate_wall_open.json",
+          "src/main/resources/assets/slot/models/block/scarred_fence_gate_open.json",
+          "src/main/resources/assets/slot/models/item/scarred_fence_gate.json",
+          "src/main/resources/assets/slot/models/block/scarred_fence_gate.json"
+        ]
+      },
+      "path": "~/BLOCKS"
+    },
+    {
+      "name": "ScarredPressurePlate",
+      "type": "block",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "scarred_pressure_plate",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/slot/block/ScarredPressurePlateBlock.java",
+          "src/main/resources/assets/slot/blockstates/scarred_pressure_plate.json",
+          "src/main/resources/assets/slot/models/item/scarred_pressure_plate.json",
+          "src/main/resources/assets/slot/models/block/scarred_pressure_plate.json",
+          "src/main/resources/assets/slot/models/block/scarred_pressure_plate_down.json"
+        ]
+      },
+      "path": "~/BLOCKS"
+    },
+    {
+      "name": "ScarredButton",
+      "type": "block",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "scarred_button",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/slot/models/item/scarred_button.json",
+          "src/main/resources/assets/slot/blockstates/scarred_button.json",
+          "src/main/java/net/mcreator/slot/block/ScarredButtonBlock.java",
+          "src/main/resources/assets/slot/models/block/scarred_button.json",
+          "src/main/resources/assets/slot/models/block/scarred_button_pressed.json",
+          "src/main/resources/assets/slot/models/block/scarred_button_inventory.json"
+        ]
+      },
+      "path": "~/BLOCKS"
+    },
+    {
+      "name": "ScarredItemsTag",
+      "type": "tag",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "scarred_items_tag",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/forge/tags/items/scarred_log.json"
+        ]
+      },
+      "path": "~/BLOCKS"
+    },
+    {
+      "name": "ScarredWoodRecipe",
+      "type": "recipe",
+      "sortid": 48,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "scarred_wood_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/slot/recipes/scarred_wood_recipe.json"
+        ]
+      },
+      "path": "~/BLOCKS"
+    },
+    {
+      "name": "ScarredPlanksRecipe",
+      "type": "recipe",
+      "sortid": 49,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "scarred_planks_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/slot/recipes/scarred_planks_recipe.json"
+        ]
+      },
+      "path": "~/BLOCKS"
+    },
+    {
+      "name": "ScarredStairsRecipe",
+      "type": "recipe",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "scarred_stairs_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/slot/recipes/scarred_stairs_recipe.json"
+        ]
+      },
+      "path": "~/BLOCKS"
+    },
+    {
+      "name": "ScarredSlabRecipe",
+      "type": "recipe",
+      "sortid": 51,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "scarred_slab_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/slot/recipes/scarred_slab_recipe.json"
+        ]
+      },
+      "path": "~/BLOCKS"
+    },
+    {
+      "name": "ScarredFenceRecipe",
+      "type": "recipe",
+      "sortid": 52,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "scarred_fence_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/slot/recipes/scarred_fence_recipe.json"
+        ]
+      },
+      "path": "~/BLOCKS"
+    },
+    {
+      "name": "ScarredFenceGateRecipe",
+      "type": "recipe",
+      "sortid": 53,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "scarred_fence_gate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/slot/recipes/scarred_fence_gate_recipe.json"
+        ]
+      },
+      "path": "~/BLOCKS"
+    },
+    {
+      "name": "ScarredPressurePlateRecipe",
+      "type": "recipe",
+      "sortid": 54,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "scarred_pressure_plate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/slot/recipes/scarred_pressure_plate_recipe.json"
+        ]
+      },
+      "path": "~/BLOCKS"
+    },
+    {
+      "name": "ScarredButtonRecipe",
+      "type": "recipe",
+      "sortid": 55,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "scarred_button_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/slot/recipes/scarred_button_recipe.json"
+        ]
+      },
+      "path": "~/BLOCKS"
+    },
+    {
+      "name": "ScarredStickRecipe",
+      "type": "recipe",
+      "sortid": 56,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "scarred_stick_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/slot/recipes/scarred_stick_recipe.json"
+        ]
+      },
+      "path": "~/BLOCKS"
+    },
+    {
+      "name": "Leaveswolfforest",
+      "type": "block",
+      "sortid": 57,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "leaveswolfforest",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/slot/models/item/leaveswolfforest.json",
+          "src/main/resources/assets/slot/blockstates/leaveswolfforest.json",
+          "src/main/java/net/mcreator/slot/block/LeaveswolfforestBlock.java",
+          "src/main/resources/assets/slot/models/block/leaveswolfforest.json"
+        ]
+      },
+      "path": "~/BLOCKS"
+    },
+    {
+      "name": "DirtBlocks",
+      "type": "tag",
+      "sortid": 58,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dirt_blocks",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/blocks/dirt.json"
+        ]
+      }
+    },
+    {
+      "name": "LeaveBlocks",
+      "type": "tag",
+      "sortid": 59,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "leave_blocks",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/blocks/leaves.json"
+        ]
+      }
+    },
+    {
+      "name": "PlankItems",
+      "type": "tag",
+      "sortid": 60,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "plank_items",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/items/planks.json"
+        ]
+      }
+    },
+    {
+      "name": "Portalparticle",
+      "type": "particle",
+      "sortid": 61,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "portalparticle",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/slot/client/particle/PortalparticleParticle.java",
+          "src/main/resources/assets/slot/particles/portalparticle.json"
+        ]
+      }
+    },
+    {
+      "name": "BeaconBaseBlockBlocks",
+      "type": "tag",
+      "sortid": 62,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "beacon_base_block_blocks",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/blocks/beacon_base_blocks.json"
+        ]
+      }
+    },
+    {
+      "name": "DragonImmuneBlocks",
+      "type": "tag",
+      "sortid": 63,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dragon_immune_blocks",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/blocks/dragon_immune.json"
+        ]
+      }
+    },
+    {
+      "name": "WitherImmuneBlocks",
+      "type": "tag",
+      "sortid": 64,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wither_immune_blocks",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/blocks/wither_immune.json"
+        ]
+      }
+    },
+    {
+      "name": "Miech",
+      "type": "recipe",
+      "sortid": 65,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "miech",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/slot/recipes/ruby_sword.json"
+        ]
+      },
+      "path": "~/Crafts"
+    },
+    {
+      "name": "Kirka",
+      "type": "recipe",
+      "sortid": 66,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kirka",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/slot/recipes/kirka.json"
+        ]
+      },
+      "path": "~/Crafts"
+    },
+    {
+      "name": "Lopata",
+      "type": "recipe",
+      "sortid": 67,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lopata",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/slot/recipes/lopata.json"
+        ]
+      },
+      "path": "~/Crafts"
+    },
+    {
+      "name": "Motygha",
+      "type": "recipe",
+      "sortid": 68,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "motygha",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/slot/recipes/motygha.json"
+        ]
+      },
+      "path": "~/Crafts"
+    },
+    {
+      "name": "Topor",
+      "type": "recipe",
+      "sortid": 69,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "topor",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/slot/recipes/topor.json"
+        ]
+      },
+      "path": "~/Crafts"
+    },
+    {
+      "name": "Shliem",
+      "type": "recipe",
+      "sortid": 70,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shliem",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/slot/recipes/shliem.json"
+        ]
+      },
+      "path": "~/Crafts"
+    },
+    {
+      "name": "Kirasa",
+      "type": "recipe",
+      "sortid": 71,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kirasa",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/slot/recipes/kirasa.json"
+        ]
+      },
+      "path": "~/Crafts"
+    },
+    {
+      "name": "Ponozhi",
+      "type": "recipe",
+      "sortid": 72,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ponozhi",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/slot/recipes/ponozhi.json"
+        ]
+      },
+      "path": "~/Crafts"
+    },
+    {
+      "name": "Botinki",
+      "type": "recipe",
+      "sortid": 73,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "botinki",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/slot/recipes/botinki.json"
+        ]
+      },
+      "path": "~/Crafts"
+    },
+    {
+      "name": "Blokrudy",
+      "type": "recipe",
+      "sortid": 74,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blokrudy",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/slot/recipes/blokrudy.json"
+        ]
+      },
+      "path": "~/Crafts"
+    },
+    {
+      "name": "Diekraftblokarudy",
+      "type": "recipe",
+      "sortid": 75,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diekraftblokarudy",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/slot/recipes/diekraftblokarudy.json"
+        ]
+      },
+      "path": "~/Crafts"
+    },
+    {
+      "name": "Pierieplavkarudy",
+      "type": "recipe",
+      "sortid": 76,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pierieplavkarudy",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/slot/recipes/pierieplavkarudy.json"
+        ]
+      },
+      "path": "~/Crafts"
+    },
+    {
+      "name": "Pierieplavkarudy2",
+      "type": "recipe",
+      "sortid": 77,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pierieplavkarudy_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/slot/recipes/pierieplavkarudy_2.json"
+        ]
+      },
+      "path": "~/Crafts"
+    },
+    {
+      "name": "Dostizhieniie1",
+      "type": "achievement",
+      "sortid": 78,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dostizhieniie_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/slot/advancements/dostizhieniie_1.json"
+        ]
+      },
+      "path": "~/achievements"
+    },
+    {
+      "name": "Dostizhieniie2",
+      "type": "achievement",
+      "sortid": 79,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dostizhieniie_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/slot/advancements/dostizhieniie_2.json"
+        ]
+      },
+      "path": "~/achievements"
+    },
+    {
+      "name": "BloodySnowValley",
+      "type": "biome",
+      "sortid": 80,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bloody_snow_valley",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/slot/world/biome/BloodySnowValleyBiome.java"
+        ]
+      },
+      "path": "~/BIOMES"
+    }
+  ],
+  "variable_elements": [
+    {
+      "name": "SpellNumber",
+      "type": "number",
+      "scope": "map",
+      "value": "0"
+    }
+  ],
+  "sound_elements": [
+    {
+      "name": "chundra_death",
+      "files": [
+        "shriek"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    },
+    {
+      "name": "music_of_the_forest_of_wolves_biome",
+      "files": [
+        "bonjr-if-it_s-real_-then-i_ll-stay-_slowed-reverb_"
+      ],
+      "category": "music",
+      "subtitle": ""
+    }
+  ],
+  "language_map": {
+    "en_us": {
+      "item.slot.ruby_equipment_sword": "Ruby_equipment Sword",
+      "block.slot.scarred_fence": "Scarred Fence",
+      "block.slot.scarred_slab": "Scarred Slab",
+      "biome.slot.wolfforest": "Wolf_forest",
+      "subtitles.music_of_the_forest_of_wolves_biome": "",
+      "item.slot.ruby": "Ruby",
+      "block.slot.leaveswolfforest": "Leaves wolf forest",
+      "biome.slot.bloody_snow_valley": "Bloody Snow Valley",
+      "item.slot.ruby_armor_armor_chestplate": "Ruby_armor Chestplate",
+      "item.slot.ridik_spawn_egg": "Ridik Spawn Egg",
+      "entity.slot.ridik": "Ridik",
+      "block.slot.rubyore": "Rubin Gem",
+      "subtitles.chundra_death": "",
+      "item.slot.glowingrubyingot": "glowing ruby ingot",
+      "block.slot.rubydirt": "Rubydirt",
+      "item.slot.ruby_equipment_pickaxe": "Ruby Pickaxe",
+      "advancements.dostizhieniie_1.descr": "Get your first Ruby",
+      "key.slot.key_tree_open": "Key Tree Open",
+      "item.slot.ruby_armor_armor_leggings": "Ruby_armor Leggings",
+      "gui.slot.spelltreegui.button_antiscar": "Anti-scar",
+      "block.slot.scarred_pressure_plate": "Scarred Pressure Plate",
+      "advancements.dostizhieniie_1.title": "Ruby+",
+      "item.slot.a_bottlewithascar": "Bottle with life",
+      "item.slot.rubyworld": "Ruby Portal Igniter",
+      "advancements.dostizhieniie_2.descr": "Get a ruby chestplate",
+      "item.slot.ruby_armor_armor_helmet": "Ruby_armor Helmet",
+      "item.slot.ruby_equipment_hoe": "Ruby Hoe",
+      "block.slot.rubin_gem": "Rubin Gem",
+      "advancements.dostizhieniie_2.title": "Stronger than obsidian!",
+      "biome.slot.scarredwasteland": "Scarred_wasteland",
+      "block.slot.scarred_leaves": "Scarred Leaves",
+      "gui.slot.spelltreegui.button_scar_warrior": "Scar Warrior",
+      "item.slot.ruby_equipment_shovel": "Ruby Shovel",
+      "block.slot.scarredearth": "Scarredearth",
+      "block.slot.scarred_button": "Scarred Button",
+      "item.slot.antiscarbow": "Bottle with life",
+      "block.slot.ruby_block": "Ruby Block",
+      "block.slot.scarred_wood": "Scarred Wood",
+      "entity.slot.chundra": "Chundra",
+      "item.slot.ruby_equipment_axe": "Ruby_equipment Axe",
+      "item.slot.ruby_armor_armor_boots": "Ruby_armor Boots",
+      "item.slot.chundra_spawn_egg": "Chundra Spawn Egg",
+      "block.slot.scarred_fence_gate": "Scarred Fence Gate",
+      "item.slot.axeboost": "Axe boost",
+      "block.slot.scarred_stairs": "Scarred Stairs",
+      "biome.slot.scarlands": "Scarlands",
+      "itemGroup.tabrubytab": "Ruby+",
+      "item.slot.heartarrow": "Heartarrow",
+      "block.slot.scarred_log": "Scarred Log",
+      "block.slot.scarred_planks": "Scarred Planks"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": [
+      {
+        "name": "MOBS",
+        "children": []
+      },
+      {
+        "name": "BIOMES",
+        "children": []
+      },
+      {
+        "name": "BLOCKS",
+        "children": []
+      },
+      {
+        "name": "ITEMS",
+        "children": []
+      },
+      {
+        "name": "Crafts",
+        "children": []
+      },
+      {
+        "name": "achievements",
+        "children": []
+      }
+    ]
+  },
+  "workspaceSettings": {
+    "modid": "slot",
+    "modName": "SLOT",
+    "version": "1_alpha",
+    "author": "FaNaTiK",
+    "websiteURL": "https://mcreator.net",
+    "license": "All Rights Reserved",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": true,
+    "modPicture": "128",
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.19.2",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.mcreator.slot",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202300110610
+}

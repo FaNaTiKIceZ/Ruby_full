@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "slot:block/rubin_gem"
+    }
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "_fv": 39,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "axe_boost",
+    "customModelName": "Normal",
+    "name": "Axe boost",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:Rubytab"
+    },
+    "toolType": "Axe",
+    "harvestLevel": 2,
+    "efficiency": 6.0,
+    "attackSpeed": 0.4,
+    "enchantability": 2,
+    "damageVsEntity": 12.0,
+    "usageCount": 50,
+    "blocksAffected": [],
+    "hasGlow": true,
+    "repairItems": [
+      {
+        "value": "CUSTOM:Ruby"
+      }
+    ],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "onRightClickedInAir": {
+      "name": "AxeboostPriNazhatiiPravoiKnopkoiMyshi"
+    }
+  }
+}

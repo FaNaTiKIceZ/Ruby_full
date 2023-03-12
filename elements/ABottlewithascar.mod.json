@@ -1,0 +1,37 @@
+{
+  "_fv": 39,
+  "_type": "rangeditem",
+  "definition": {
+    "renderType": 0,
+    "texture": "a_bottle_with_a_scar",
+    "customModelName": "Normal",
+    "name": "Bottle with life",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:Rubytab"
+    },
+    "stackSize": 16,
+    "ammoItem": {
+      "value": "Items.SPLASH_POTION"
+    },
+    "shootConstantly": false,
+    "usageCount": 100,
+    "actionSound": {
+      "value": "entity.arrow.shoot"
+    },
+    "hasGlow": false,
+    "animation": "drink",
+    "enableMeleeDamage": false,
+    "damageVsEntity": 0.0,
+    "bulletPower": 1.0,
+    "bulletDamage": 5.0,
+    "bulletKnockback": 5,
+    "bulletParticles": false,
+    "bulletIgnitesFire": false,
+    "bulletItemTexture": {
+      "value": "Items.SPLASH_POTION"
+    },
+    "bulletModel": "Default",
+    "customBulletModelTexture": ""
+  }
+}

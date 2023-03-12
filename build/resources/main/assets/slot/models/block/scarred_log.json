@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "slot:blocks/scarred_log_top",
+    "up": "slot:blocks/scarred_log_top",
+    "north": "slot:blocks/scarred_log_side",
+    "east": "slot:blocks/scarred_log_side",
+    "south": "slot:blocks/scarred_log_side",
+    "west": "slot:blocks/scarred_log_side",
+    "particle": "slot:blocks/scarred_log_top"
+  },
+  "render_type": "solid"
+}

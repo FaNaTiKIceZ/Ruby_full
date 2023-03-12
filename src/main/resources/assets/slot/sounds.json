@@ -1,0 +1,20 @@
+{
+  "chundra_death": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "slot:shriek",
+        "stream": false
+      }
+    ]
+  },
+  "music_of_the_forest_of_wolves_biome": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "slot:bonjr-if-it_s-real_-then-i_ll-stay-_slowed-reverb_",
+        "stream": true
+      }
+    ]
+  }
+}

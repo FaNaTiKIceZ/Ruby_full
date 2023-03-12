@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "slot:blocks/scarred_planks",
+    "particle": "slot:blocks/scarred_planks"
+  },
+  "render_type": "solid"
+}

@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "slot:scarred_planks"
+    }
+  ],
+  "result": {
+    "item": "slot:scarred_button",
+    "count": 1
+  }
+}
